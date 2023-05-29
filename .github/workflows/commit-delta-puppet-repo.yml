@@ -2,7 +2,7 @@ name: Delta repository generator - SQLite variant
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   commit:
     runs-on: ubuntu-latest
